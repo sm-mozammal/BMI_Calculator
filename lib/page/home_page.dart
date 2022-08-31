@@ -97,7 +97,7 @@ class _HomePageState extends State<HomePage> {
   void calculateBmi() {
     bmi = sliderWeight/(sliderHeight*sliderHeight);
     if(bmi<16){
-      status = 'Underweight (Severe thinness)';
+      status = 'Underweight (Severe thinness )';
     } else if(bmi>=16 && bmi <=16.9){
       status = 'Underweight (Moderate thinness)';
     }else if(bmi>=17 && bmi <=18.4){
