@@ -11,7 +11,6 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-
   double sliderWeight = 50;
   double sliderHeight= 1.5;
   double bmi = 0;
